@@ -14,16 +14,20 @@ html ::-webkit-scrollbar-thumb{
     background: #e94242;
 }
 
+html ::-webkit-scrollbar{
+
+}
+
 /*  navbar início */
 #navbar {
     background-color: rgb(255, 255, 255);
-
+    
     
 }
 #logo img{
     border-radius: 10px;
-    width: 200px;
-    height: 200px;
+    width: 160px;
+
     margin-left: 40px;
 }
 .navbar-nav{
@@ -40,6 +44,9 @@ html ::-webkit-scrollbar-thumb{
     color: white;
     border: 1px solid white;
 }
+
+
+
 /*  navbar fim */
 
 
@@ -50,12 +57,13 @@ html ::-webkit-scrollbar-thumb{
     background-image: url(./imagens/home.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 78%;
+    background-position: 80%;
 }
 #home .content{
 
     padding-top:230px ;
     margin-left: 56px;
+    
 }
 #home .content h3{
     font-size: 40px;
@@ -219,6 +227,7 @@ html ::-webkit-scrollbar-thumb{
 #informacoes{
     margin-top: 20px;
     width: 100%;
+    margin-bottom:20%;
     
     
 }
@@ -228,7 +237,7 @@ html ::-webkit-scrollbar-thumb{
 
 .heading2{
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 10%;
     margin-top: -30px;
     color:black;
     font-size: 30px;
@@ -245,7 +254,7 @@ html ::-webkit-scrollbar-thumb{
     width: 135px;
     height: 90px;
     letter-spacing: 3px;
-    background-color: #e94242;
+    background-color: #ea935d;
     color: rgb(255, 255, 255);
     border-radius: 10px;
     border: none;
